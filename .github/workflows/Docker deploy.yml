@@ -37,5 +37,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.shansaranya }}/my-sample-app:latest
+          tags: ghcr.io/${{ github.repository_owner}}/my-sample-app:latest
           # Example with your GitHub username 'octocat': ghcr.io/octocat/my-sample-app:latest
